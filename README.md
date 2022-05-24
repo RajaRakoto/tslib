@@ -1,3 +1,9 @@
+### 📌 Use
+
+```bash
+git clone --depth 1 https://github.com/RajaRakoto/tslib
+```
+
 ### 📌 Features
 
 - Minimal
@@ -45,7 +51,7 @@ npm run test
 - Run the `jest` tests in watch mode, waiting for file changes.
 
 ```bash
-npm run test:dev
+npm run test:watch
 ```
 
 ---
@@ -53,7 +59,7 @@ npm run test:dev
 - Format your code.
 
 ```bash
-npm run prettier-format
+npm run prettier
 ```
 
 ---
@@ -61,5 +67,13 @@ npm run prettier-format
 - Format your code in watch mode, waiting for file changes.
 
 ```bash
-npm run prettier-watch
+npm run prettier:watch
+```
+
+---
+
+- Check your project with eslint.
+
+```bash
+npm run check
 ```
