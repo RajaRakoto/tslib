@@ -2,7 +2,7 @@
   "name": "tslib",
   "version": "1.0.0",
   "description": "A library template for a Typescript + Node.js project",
-  "main": "index.js",
+  "main": "build/index.js",
   "repository": "https://github.com/RajaRakoto/tslib",
   "scripts": {
     "build": "rimraf ./build && tsc",
