@@ -1,4 +1,4 @@
-import { tellMyTime } from './date/moment';
+import { tellMyTime } from './libs/moment';
 import moment from 'moment';
 
 describe('Test moment', () => {
