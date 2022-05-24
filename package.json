@@ -1,12 +1,12 @@
 {
   "name": "tslib",
   "version": "1.0.0",
-  "description": "A library template for Typscript + Node.js project",
+  "description": "A library template for a Typescript + Node.js project",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf ./dist && tsc",
+    "build": "rimraf ./build && tsc",
     "start:dev": "nodemon",
-    "start": "npm run build && node dist/index.js",
+    "start": "npm run build && node build/index.js",
     "lint": "eslint . --ext .ts",
     "prettier-format": "run-script-os",
     "prettier-format:win32": "prettier --config .prettierrc \"./src/**/*.ts\" --write",
