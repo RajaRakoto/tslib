@@ -109,3 +109,4 @@ dist
 # Own ignore files
 backups/
 tmp/
+build/

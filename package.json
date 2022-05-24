@@ -2,7 +2,8 @@
   "name": "tslib",
   "version": "1.0.0",
   "description": "A library template for a Typescript + Node.js project",
-  "main": "index.js",
+  "main": "build/index.js",
+  "repository": "https://github.com/RajaRakoto/tslib",
   "scripts": {
     "build": "rimraf ./build && tsc",
     "start:dev": "nodemon",
@@ -24,8 +25,14 @@
       "pre-commit": "npm run test && npm run prettier-format && npm run lint"
     }
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "starter",
+    "library",
+    "typescript",
+    "node",
+    "project"
+  ],
+  "author": "Raja Rakotonirina <raja.rakoto7@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^27.5.1",
