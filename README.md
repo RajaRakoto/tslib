@@ -1,4 +1,4 @@
-### Features
+### 📌 Features
 
 - Minimal
 - TypeScript v4
@@ -8,32 +8,58 @@
 - VS Code debugger scripts
 - Local development with Nodemon
 
-### Scripts
+### 📌 Scripts
 
-#### `npm run start:dev`
+- Starts the application in development using `nodemon` and `ts-node` to do hot reloading.
 
-Starts the application in development using `nodemon` and `ts-node` to do hot reloading.
+```bash
+npm run start:dev
+```
 
-#### `npm run start`
+---
 
-Starts the app in production by first building the project with `npm run build`, and then executing the compiled JavaScript at `build/index.js`.
+- Starts the app in production by first building the project with `npm run build`, and then executing the compiled JavaScript at `build/index.js`.
 
-#### `npm run build`
+```bash
+npm run start
+```
 
-Builds the app at `build`, cleaning the folder first.
+---
 
-#### `npm run test`
+- Builds the app at `build`, cleaning the folder first.
 
-Runs the `jest` tests once.
+```bash
+npm run build
+```
 
-#### `npm run test:dev`
+---
 
-Run the `jest` tests in watch mode, waiting for file changes.
+- Runs the `jest` tests once.
 
-#### `npm run prettier-format`
+```bash
+npm run test
+```
 
-Format your code.
+---
 
-#### `npm run prettier-watch`
+- Run the `jest` tests in watch mode, waiting for file changes.
 
-Format your code in watch mode, waiting for file changes.
+```bash
+npm run test:dev
+```
+
+---
+
+- Format your code.
+
+```bash
+npm run prettier-format
+```
+
+---
+
+- Format your code in watch mode, waiting for file changes.
+
+```bash
+npm run prettier-watch
+```
