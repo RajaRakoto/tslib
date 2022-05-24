@@ -1,3 +1,3 @@
-import { tellMyTime } from './date/moment';
+import { tellMyTime } from './libs/moment';
 
 export { tellMyTime };
