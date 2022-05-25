@@ -13,6 +13,7 @@ git clone --depth 1 https://github.com/RajaRakoto/tslib
 - Pre-commit hooks with Husky
 - VS Code debugger scripts
 - Local development with Nodemon
+- Task runner with grunt
 
 ### 📌 Scripts
 
